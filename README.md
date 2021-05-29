@@ -2,9 +2,10 @@
 
 # Introduction
 This uses the official Interparcel API to track a parcel in supported countries using API v1.
+Tracking codes prefixed with GB (United Kingdom), AU (Australia) and NZ (New Zealand) are supported.
 
 # Installation
-Nothing fancy, just copy/paste.
+Nothing fancy, just copy/paste the class and tailor your code around the example.
 
 # Usage
 Check example.php
