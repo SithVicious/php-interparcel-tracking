@@ -63,7 +63,7 @@
 				CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 				CURLOPT_CUSTOMREQUEST => 'GET',
 				CURLOPT_HTTPHEADER => array(
-					'X-Interparcel-Auth: ' . $this->apiKey, #TODO: Move X-Interparcel-Auth to config.php
+					'X-Interparcel-Auth: ' . $this->apiKey,
 					'Content-Type: application/json'
 				),
 			));
